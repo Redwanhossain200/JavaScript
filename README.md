@@ -1,2 +1,2 @@
 # JavaScript
-Author - MD Redwan Hossain
+<strong>Author - MD Redwan Hossain</strong>
