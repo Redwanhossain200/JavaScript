@@ -1,2 +1,2 @@
 # JavaScript
-<strong>Author - MD Redwan Hossain</strong>
+<strong>Author -<u><i>MD Redwan Hossain</i></u></strong>
