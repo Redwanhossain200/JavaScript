@@ -5,10 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Variables</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <link rel="stylesheet" href="../Css/tailwind.init.css">
+  <link rel="stylesheet" href="../Css/style.css">
 </head>
 
-<body>
+<body class="container">
   <h1>Variables in JavaScript.</h1>
+  <ul class="text-3xl bg-amber-500">
+    <li>Variable names are case sensitive; "a" & "A" is different</li>
+    <li>Only letters,digits,underscore(_) & $ is allowed.(not even space)</li>
+    <li>Only a letter, underscore( _ ) or $ should be 1st character.</li>
+    <li>Reserved words cannot be variable names.</li>
+  </ul>
 </body>
 <script>
 
@@ -31,6 +41,17 @@
 
   country = "Bangladesh";
   console.log("I live in " + country);
+
+
+  fullName = "Matha Noshto";
+  console.log(fullName);
+
+  _fullName = "Tony stark";
+  console.log(_fullName);
+
+  $fullName = "Redwan hossain";
+  console.log($fullName);
+
 
 </script>
 
