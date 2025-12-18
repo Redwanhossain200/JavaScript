@@ -23,4 +23,4 @@
     isPass: true,
   };
   student["age"] = student["age"] + 1;
-  console.log(student.age);
+  console.log(student["age"]);
