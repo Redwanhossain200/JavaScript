@@ -11,3 +11,13 @@ console.log("a * b =", a * b); //Multiplication
 console.log("a / b =", a / b); //Division
 console.log("a % b =", a % b); //Modulus
 console.log("a ** b =", a ** b); //Exponentiation 10^5=100000
+
+
+//Unary Oparators
+let x = 6;
+let y = 4;
+console.log("x =", 6, "& y =", 4);
+x++; //post increment.
+console.log("x =", x);
+y--; //post decrement.
+console.log("y =", y);
