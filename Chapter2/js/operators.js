@@ -17,7 +17,8 @@ console.log("a ** b =", a ** b); //Exponentiation 10^5=100000
 let x = 6;
 let y = 4;
 console.log("x =", 6, "& y =", 4);
-x++; //post increment.
+
+console.log("x++ =", x++); //Post Increment
 console.log("x =", x);
-y--; //post decrement.
-console.log("y =", y);
+console.log("++x =", ++x); //Pre Increment
+console.log("x =", x);
