@@ -1,4 +1,8 @@
-// Primitive Data Types 
+  // let update✓
+  // const obj key update ✓
+  // const update ×
+
+  // Primitive Data Types
 
   let age = 24;
 console.log(age);
@@ -9,7 +13,7 @@ console.log(price);
 let fullname = "Tony Stark";
 console.log(fullname);
   
-isFollow = True;
+let isFollow = "True";
 console.log(isfolllow);
   
 let x = null;
@@ -40,4 +44,3 @@ console.log(z);
 
   student["gpa"] = student["gpa"] + 1;
    console.log(student["gpa"]);
- 
