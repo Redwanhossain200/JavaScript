@@ -25,11 +25,11 @@
 
 
 // Assignment Operators
-let a = 4;
+let a = 5;
 let b = 2;
 
-a -= 4; //a = a - 4
-console.log("a = ", a); //8
+a %= 4; //a = a % 4
+console.log("a = ", a); //1
 
-b += 4; //b = b + 4
-console.log("b = ", b); //8
+b /= 4; //b = b / 4
+console.log("b = ", b); //0.5
