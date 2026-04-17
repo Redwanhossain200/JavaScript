@@ -5,13 +5,12 @@
 // // console.log("a + b =",c);
 
 // console.log("a =", 10, "& b =", 5);
-// console.log("a + b =", a + b); //Addition 
+// console.log("a + b =", a + b); //Addition
 // console.log("a - b =", a - b); //Substraction
 // console.log("a * b =", a * b); //Multiplication
 // console.log("a / b =", a / b); //Division
 // console.log("a % b =", a % b); //Modulus
 // console.log("a ** b =", a ** b); //Exponentiation 10^5=100000
-
 
 // //Unary Oparators
 // let x = 6;
@@ -23,13 +22,12 @@
 // console.log("++x =", ++x); //Pre Increment
 // console.log("x =", x);
 
-
 // Assignment Operators
 let a = 5;
 let b = 2;
 
 a **= 4; //a = a ** 4
-console.log("a = ", a); //1
+console.log('a = ', a); //1
 
 b /= 4; //b = b / 4
-console.log("b = ", b); //0.5
+console.log('b = ', b); //0.5
